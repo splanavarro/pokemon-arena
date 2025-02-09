@@ -5,11 +5,10 @@ const ConvertirCSV = () => {
   const [json, setJSON] = useState([]);
 
   const convertirACSV = () => {
-    const lineas = csv.split("\n").filter((linea) => linea.trim() !== ""); // Elimina líneas vacías
+    const lineas = csv.split("\n").filter((linea) => linea.trim() !== "");
     const objetos = lineas.map((linea, index) => {
       const valores = linea.split(",");
 
-      // Verificar que haya suficientes valores
       if (valores.length < 9) {
         console.error(`Error en la línea ${index + 1}: Faltan valores`);
         return null;
@@ -26,7 +25,7 @@ const ConvertirCSV = () => {
         generación: parseInt(valores[7]?.trim(), 10) || 0,
         imagen: valores[8]?.trim() || "",
       };
-    }).filter((obj) => obj !== null); // Elimina los objetos nulos si hay errores
+    }).filter((obj) => obj !== null);
 
     setJSON(objetos);
   };

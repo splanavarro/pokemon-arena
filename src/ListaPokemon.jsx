@@ -18,12 +18,6 @@ const ListaPokemon = () => {
             });
     }, []);
 
-    // const borrarAlumno = (id) => {
-    //     fetch(`http://localhost:3000/alumnos/${id}`, { method: "DELETE" })
-    //         .then(() => setAlumnos(alumnos.filter(alumno => alumno.id !== id)))
-    //         .catch(error => console.error("Error al borrar:", error));
-    // };
-
     return (
         <div>
             <h1>Lista de Pokémon</h1>
@@ -45,15 +39,10 @@ const ListaPokemon = () => {
                             <td>{pokemon.nombre}</td>
                             <td>{pokemon.tipo1}</td>
                             <td>{pokemon.tipo2}</td>
-                            {/* <td>
-                                <Link to={`/editar/${alumno.id}`}><button>Editar</button></Link>
-                                <button onClick={() => borrarAlumno(alumno.id)}>Borrar</button>
-                            </td> */}
                         </tr>
                     ))}
                 </tbody>
             </table>
-            {/* <Link to="/crear"><button>Crear Alumno</button></Link> */}
         </div>
     );
 };

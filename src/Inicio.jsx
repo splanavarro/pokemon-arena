@@ -10,7 +10,6 @@ const Inicio = () => {
     const [seleccionados, setSeleccionados] = useState([]);
     const [equipo, setEquipo] = useState([]);
 
-    // Cargar datos desde la API
     useEffect(() => {
         fetch("http://localhost:3000/pokemon")
             .then(response => response.json())
@@ -22,9 +21,8 @@ const Inicio = () => {
         setEquipo(prevEquipo => {
             const nuevoEquipo = [...prevEquipo, { nombre, imagen }];
     
-            // Llamamos a comenzar() pasando el equipo actualizado
             if (nuevoEquipo.length < 6) {
-                setTimeout(() => comenzar(nuevoEquipo), 0); // Evita problemas con el estado desactualizado
+                setTimeout(() => comenzar(nuevoEquipo), 0);
             }
     
             return nuevoEquipo;
@@ -32,7 +30,6 @@ const Inicio = () => {
     };
     
     const comenzar = (equipoActualizado = []) => {
-        // Asegurar que equipoActualizado es un array
         if (!Array.isArray(equipoActualizado)) {
             equipoActualizado = [];
         }
