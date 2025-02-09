@@ -1,0 +1,54 @@
+label {
+    margin-right: 1em;
+}
+
+input[type="checkbox"] {
+    margin-right: 0.5em;
+}
+
+input[type="number"] {
+    margin-left: 0.5em;
+}
+
+button {
+    display: block;
+    margin-top: 1em;
+}
+
+.tres-cartas { 
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 7em;
+}
+
+.carta-pokemon {
+    text-align: center;
+    width: 20%;
+    padding: 1em;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+
+.tres-cartas > .carta-pokemon:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 2px 2px 3px 0px black;
+}
+
+.carta-pokemon img {
+    width: 100%;
+}
+
+.seis-cartas {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.seis-cartas > .carta-pokemon {
+    width: 10%;
+}

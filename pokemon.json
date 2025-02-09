@@ -1,0 +1,100 @@
+[ {
+    "numero": 1,
+    "nombre": "Bulbasaur",
+    "tipo1": "Planta",
+    "tipo2": "Veneno",
+    "NFE": true,
+    "legendario": false,
+    "mítico": false,
+    "generación": 1,
+    "imagen": "https://img.pokemondb.net/sprites/red-blue/normal/bulbasaur.png"
+}, 
+{
+    "numero": 2,
+    "nombre": "Ivysaur",
+    "tipo1": "Planta",
+    "tipo2": "Veneno",
+    "NFE": true,
+    "legendario": false,
+    "mítico": false,
+    "generación": 1,
+    "imagen": "https://img.pokemondb.net/sprites/red-blue/normal/ivysaur.png"
+},
+{
+    "numero": 3,
+    "nombre": "Venusaur",
+    "tipo1": "Planta",
+    "tipo2": "Veneno",
+    "NFE": false,
+    "legendario": false,
+    "mítico": false,
+    "generación": 1,
+    "imagen": "https://img.pokemondb.net/sprites/red-blue/normal/venusaur.png"
+},
+{
+    "numero": 4,
+    "nombre": "Charmander",
+    "tipo1": "Fuego",
+    "tipo2": "",
+    "NFE": true,
+    "legendario": false,
+    "mítico": false,
+    "generación": 1,
+    "imagen": "https://img.pokemondb.net/sprites/red-blue/normal/charmander.png"
+  },
+  {
+    "numero": 5,
+    "nombre": "Charmeleon",
+    "tipo1": "Fuego",
+    "tipo2": "",
+    "NFE": true,
+    "legendario": false,
+    "mítico": false,
+    "generación": 1,
+    "imagen": "https://img.pokemondb.net/sprites/red-blue/normal/charmeleon.png"
+  },
+  {
+    "numero": 6,
+    "nombre": "Charizard",
+    "tipo1": "Fuego",
+    "tipo2": "Volador",
+    "NFE": false,
+    "legendario": false,
+    "mítico": false,
+    "generación": 1,
+    "imagen": "https://img.pokemondb.net/sprites/red-blue/normal/charizard.png"
+  },
+  {
+    "numero": 7,
+    "nombre": "Squirtle",
+    "tipo1": "Agua",
+    "tipo2": "",
+    "NFE": true,
+    "legendario": false,
+    "mítico": false,
+    "generación": 1,
+    "imagen": "https://img.pokemondb.net/sprites/red-blue/normal/squirtle.png"
+  },
+  {
+    "numero": 8,
+    "nombre": "Wartortle",
+    "tipo1": "Agua",
+    "tipo2": "",
+    "NFE": true,
+    "legendario": false,
+    "mítico": false,
+    "generación": 1,
+    "imagen": "https://img.pokemondb.net/sprites/red-blue/normal/wartortle.png"
+  },
+  {
+    "numero": 9,
+    "nombre": "Blastoise",
+    "tipo1": "Agua",
+    "tipo2": "",
+    "NFE": false,
+    "legendario": false,
+    "mítico": false,
+    "generación": 1,
+    "imagen": "https://img.pokemondb.net/sprites/red-blue/normal/blastoise.png"
+  }
+]
